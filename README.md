@@ -56,7 +56,7 @@ Building Zynthian is not particularly difficult, however it does require very sp
 
 Although the official Raspberry Pi hardware is standardized, addition of a Touch Screen display may introduce some additional complexities.
 
-Zynthian developers aware of the challenges different hardware combinations introduce and have built functionality into the Zynthian Project to cater for specific combinations once they have been tested.
+Zynthian developers are aware of the challenges different hardware combinations introduce and have built functionality into the Zynthian Project to cater for specific combinations once they have been tested.
 
 It's also worth noting the Zynthian community is very active and provides fantastic support for people wanting to try the Zynthian software.
 
@@ -73,7 +73,8 @@ Hardware and Software used for the custom installation is as follows:
 * Pi:Raspberry Pi 4 Model B Rev 1.2
 * Soundcard: Onboard soundcard/Headphones - bcm2835
 * Case: Owootecc Raspberry Pi 4 TFT 3.5 inch Touch Screen with Case
-* Screen: ADS7846 Touchscreen
+* Touchscreen Driver: ADS7846 Touchscreen
+* Display: ili9486 (as reported by dmesg)
 * Keyboard: Keystation 32
 * Midi Interface: USB MidiMan Midisport 2x2
 * SD Card: SanDisk Extreme Pro 128GB microSDXC Memory Card   NOTE: (It has been mentioned large SD cards can be problematic for Zynthian)
