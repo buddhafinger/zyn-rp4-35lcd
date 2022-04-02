@@ -224,11 +224,11 @@ Once you have determined the IP address of your new instance you should be able 
 
 
 
-<img src="./images/screen1.png" width=60% >  
+<img src="./images/screen1.PNG" width=60% >  
 
 From this page Select System -> Wifi and configure for your local Wifi network using the 'Add Network' button and configure with the relevant SSID and Password.
 
-<img src="./images/screen2.png" width=60%>  
+<img src="./images/screen2.PNG" width=60%>  
 
 
 Once the Wifi details have been correctly added, Save and reboot.  
@@ -299,7 +299,7 @@ Wiring
 
 KIT.
 #Change this to Custom  
-<img src="./images/screen3.png" width=60%>  
+<img src="./images/screen3.PNG" width=60%>  
 
 
 AUDIO.
@@ -307,7 +307,7 @@ AUDIO.
 
 &nbsp; &nbsp;
 
-<img src="./images/screen4.png" width=60%>  
+<img src="./images/screen4.PNG" width=60%>  
 
 
 DISPLAY.
@@ -316,7 +316,7 @@ DISPLAY.
 &nbsp; &nbsp;
 
 
-<img src="./images/screen5.png" width=60%>  
+<img src="./images/screen5.PNG" width=60%>  
 
 
 &nbsp; &nbsp;
