@@ -115,7 +115,7 @@ Once installed, use the tool to deploy the latest stable image available [here](
 
 
 
-* Method 2: (Note: Specific to Mac OS, DO NOT use this unless you are 100% comfortable and confident with the commands used otherwise you could wipe you entire operating system or another drive)  
+* Method 2: (Note: Specific to Mac OS, DO NOT use this unless you are 100% comfortable and confident with the commands used otherwise you could wipe your entire operating system or another drive)  
 Use native command line tools to wipe the SD card and copy the image.  See example below for Mac O/S.  
 
 
@@ -176,11 +176,14 @@ diskutil eraseDisk ExFAT Zynthian /dev/disk2
 ```
 
 
-4. Unmount the disk in order to write the new filesys
+4. Unmount the disk in order to write the new filesystem.
+
+```
+diskutil unmountDisk /dev/disk2
+```
 
 
-
-6. Then we write the unzipped image to the raw device. 
+5. Then we write the unzipped image to the raw device. 
 NOTE: We have changed from using /dev/disk2 to /dev/rdisk2
 ```
 
@@ -188,7 +191,7 @@ dd if=<replace this with dir containing image>/2021-09-25-zynthianos-stable.img 
 ```
 
 
-7. Eject the device from your machine, Insert the card into your raspberry Pi.
+6. Eject the device from your machine, Insert the card into your raspberry Pi.
 
 &nbsp; &nbsp;
 
