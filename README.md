@@ -175,7 +175,12 @@ Based on the above example I will use diskutil to format my removable USB drive 
 diskutil eraseDisk ExFAT Zynthian /dev/disk2
 ```
 
-4. Then we write the unzipped image to the raw device. 
+
+4. Unmount the disk in order to write the new filesys
+
+
+
+6. Then we write the unzipped image to the raw device. 
 NOTE: We have changed from using /dev/disk2 to /dev/rdisk2
 ```
 
@@ -183,7 +188,7 @@ dd if=<replace this with dir containing image>/2021-09-25-zynthianos-stable.img 
 ```
 
 
-5. Eject the device from your machine, Insert the card into your raspberry Pi.
+7. Eject the device from your machine, Insert the card into your raspberry Pi.
 
 &nbsp; &nbsp;
 
